@@ -85,6 +85,11 @@ small,
   font-size: 0.8rem;
 }
 
+.simple-link {
+  text-decoration: none;
+  color: white;
+}
+
 .padding {
   padding: 1rem;
 }
@@ -193,16 +198,15 @@ MAIN CSS START
   align-items: center;
 }
 .contact-medium {
-  display: flex;
-  align-items: center;
-  line-height: 1.25;
-  min-width: 200px;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
 .contact-medium__icon {
-  width: 20px;
   text-align: center;
   color: var(--clr-head);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   transition: var(--transition);
   transition-property: color;
   display: inline-block;
