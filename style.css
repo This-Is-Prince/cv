@@ -157,11 +157,18 @@ MAIN CSS START
   text-align: center;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
 }
-.rocket-icon {
-  font-size: 6rem;
-  color: var(--clr-bg);
-  text-align: center;
-  line-height: normal;
+.hero-img__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.hero-img {
+  max-width: 150px;
+  max-height: 150px;
+  display: block;
+  border-radius: 999px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .name {
   color: var(--clr-bg);
