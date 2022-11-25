@@ -420,62 +420,62 @@ MAIN CSS START
   border-left: 5px solid var(--clr-head-1);
   border-right: 5px solid var(--clr-head-1);
 }
-/* DREAMWEAVER CSS START */
-.software-skill--dreamweaver::after {
+/* SLACK CSS START */
+.software-skill--slack::after {
   border-top: 4px solid transparent;
   border-bottom: 4px solid var(--clr-head);
   border-left: 4px solid transparent;
   border-right: 4px solid var(--clr-head);
   transform: rotate(-45deg);
 }
-.software-skill--dreamweaver:hover::after {
+.software-skill--slack:hover::after {
   border-top: 5px solid transparent;
   border-bottom: 5px solid var(--clr-head-1);
   border-left: 4px solid transparent;
   border-right: 5px solid var(--clr-head-1);
 }
-.software-skill--dreamweaver::before {
+.software-skill--slack::before {
   border-top: 4px solid transparent;
   border-bottom: 4px solid var(--clr-head);
   border-left: 4px solid var(--clr-head);
   border-right: 4px solid transparent;
-  transform: rotate(-81deg);
+  transform: rotate(-145deg);
 }
-.software-skill--dreamweaver:hover::before {
+.software-skill--slack:hover::before {
   border-top: 5px solid transparent;
   border-bottom: 5px solid var(--clr-head-1);
   border-left: 5px solid var(--clr-head-1);
   border-right: 4px solid transparent;
 }
-/* DREAMWEAVER CSS END */
-/* IN DESIGN CSS START */
-.software-skill--inDesign::after {
+/* SLACK CSS END */
+/* BLENDER CSS START */
+.software-skill--blender::after {
   border-top: 4px solid transparent;
   border-bottom: 4px solid var(--clr-head);
   border-left: 4px solid var(--clr-head);
   border-right: 4px solid var(--clr-head);
   transform: rotate(-45deg);
 }
-.software-skill--inDesign:hover::after {
+.software-skill--blender:hover::after {
   border-top: 5px solid transparent;
   border-bottom: 5px solid var(--clr-head-1);
-  border-left: 5px solid var(--clr-head-1);
+  border-left: 4px solid var(--clr-head-1);
   border-right: 5px solid var(--clr-head-1);
 }
-.software-skill--inDesign::before {
+.software-skill--blender::before {
   border-top: 4px solid transparent;
   border-bottom: 4px solid var(--clr-head);
   border-left: 4px solid var(--clr-head);
   border-right: 4px solid transparent;
-  transform: rotate(-9deg);
+  transform: rotate(-145deg);
 }
-.software-skill--inDesign:hover::before {
+.software-skill--blender:hover::before {
   border-top: 5px solid transparent;
   border-bottom: 5px solid var(--clr-head-1);
   border-left: 5px solid var(--clr-head-1);
-  border-right: 5px solid var(--clr-head-1);
+  border-right: 4px solid transparent;
 }
-/* IN DESIGN CSS END */
+/* BLENDER CSS END */
 .software-skill:hover .software-skill__info {
   transform: scale(1.15);
 }
